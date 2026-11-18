@@ -86,7 +86,7 @@ export default function Home() {
         onOpenCart={() => setIsCartOpen(true)}
         onSelectCategory={(cat) => setActiveCategoryFilter(cat)}
       />
-
+{/* new changes */}
       {/* Main Content Area */}
       <main className="flex-1">
         {/* 2. Hero Banner with Swiper, Glowing Podiums & Delivery timer */}
